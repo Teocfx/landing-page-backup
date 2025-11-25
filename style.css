@@ -490,6 +490,24 @@ footer p {
     z-index: 1;
 }
 
+/* Espaçamento entre o parágrafo e o botão no pitch */
+.pitch p {
+    margin-bottom: 0.75rem; /* garante espaço abaixo do texto */
+}
+.pitch .spaced {
+    margin-top: 0.5rem; /* espaço extra antes do botão */
+}
+
+/* Ajuste para telas pequenas */
+@media (max-width: 600px) {
+    .pitch p {
+        margin-bottom: 1rem;
+    }
+    .pitch .spaced {
+        margin-top: 0.75rem;
+    }
+}
+
 /* ========== RESPONSIVE ========== */
 @media (max-width: 1024px) {
     .hero h1 {
